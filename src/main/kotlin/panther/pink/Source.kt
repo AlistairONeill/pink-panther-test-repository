@@ -5,6 +5,5 @@ fun foo(): String {
 }
 
 fun bar(): Int {
-    //TODO: This should probably be a different number!
-    return 7
+    return 8
 }
