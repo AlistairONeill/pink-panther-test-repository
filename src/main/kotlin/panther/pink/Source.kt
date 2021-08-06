@@ -1,8 +1,6 @@
 package panther.pink
 
-fun foo(): String {
-    TODO("I'll get around to this someday!")
-}
+fun foo() = "Hello World"
 
 fun bar(): Int {
     return 8

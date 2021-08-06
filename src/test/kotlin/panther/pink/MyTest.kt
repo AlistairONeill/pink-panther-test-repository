@@ -5,8 +5,13 @@ import com.natpryce.hamkrest.equalTo
 import org.junit.jupiter.api.Test
 
 class MyTest {
-
-    //TODO: I should probably test foo as well
+    @Test
+    fun `test foo`() {
+        assertThat(
+            foo(),
+            equalTo("Hello World")
+        )
+    }
 
     @Test
     fun `test bar`() {
