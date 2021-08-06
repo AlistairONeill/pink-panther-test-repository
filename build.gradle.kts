@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation("com.natpryce:hamkrest:1.8.0.1")
     testImplementation(kotlin("test"))
 }
 

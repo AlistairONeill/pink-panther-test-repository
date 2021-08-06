@@ -1,5 +1,7 @@
 package panther.pink
 
+import com.natpryce.hamkrest.assertion.assertThat
+import com.natpryce.hamkrest.equalTo
 import org.junit.jupiter.api.Test
 
 class MyTest {
@@ -8,6 +10,9 @@ class MyTest {
 
     @Test
     fun `test bar`() {
-        TODO("Not done yet")
+        assertThat(
+            bar(),
+            equalTo(8)
+        )
     }
 }
